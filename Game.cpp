@@ -23,7 +23,7 @@ bool CGame::InitAddress()
 }
 
 DWORD64 CGame::GetClientDLLAddress()
-{
+{ n
 	return this->Address.ClientDLL;
 }
 
