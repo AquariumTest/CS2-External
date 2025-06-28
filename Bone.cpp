@@ -17,7 +17,7 @@ bool CBone::UpdateAllBoneData(const DWORD64& EntityPawnAddress)
 	if (!ProcessMgr.ReadMemory(BoneArrayAddress, BoneArray, 30 * sizeof(BoneJointData)))
 		return false;
 
-	for (int i = 0; i < 30; i++)
+	for (int i = 0; i < 30; ++ i)
 	{
 		Vec2 ScreenPos;
 		bool IsVisible = false;
